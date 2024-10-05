@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "category": "Beginner stability",
+    "title": "Russian twist",
+    "intensity": "Gentle",
+    "gif_url": "russian_tiwst.gif",
+    "instructions": [
+      {
+        "step": 1,
+        "text": "sit on the floor, knees bent and feet on the floor"
+      },
+      {
+        "step": 2,
+        "text": "keep your back at 45% angle, arms extended with parms together"
+      },
+      {
+        "step": 3,
+        "text": "move the arm from one side to another in twisting conditon"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Beginner stability",
+    "title": "Russian twist",
+    "intensity": "Gentle",
+    "gif_url": "russian_tiwst.gif",
+    "instructions": [
+      {
+        "step": 1,
+        "text": "sit on the floor, knees bent and feet on the floor"
+      },
+      {
+        "step": 2,
+        "text": "keep your back at 45% angle, arms extended with parms together"
+      },
+      {
+        "step": 3,
+        "text": "move the arm from one side to another in twisting conditon"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Beginner stability",
+    "title": "Russian twist",
+    "intensity": "Gentle",
+    "gif_url": "russian_tiwst.gif",
+    "instructions": [
+      {
+        "step": 1,
+        "text": "sit on the floor, knees bent and feet on the floor"
+      },
+      {
+        "step": 2,
+        "text": "keep your back at 45% angle, arms extended with parms together"
+      },
+      {
+        "step": 3,
+        "text": "move the arm from one side to another in twisting conditon"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Beginner stability",
+    "title": "Russian twist",
+    "intensity": "Gentle",
+    "gif_url": "russian_tiwst.gif",
+    "instructions": [
+      {
+        "step": 1,
+        "text": "sit on the floor, knees bent and feet on the floor"
+      },
+      {
+        "step": 2,
+        "text": "keep your back at 45% angle, arms extended with parms together"
+      },
+      {
+        "step": 3,
+        "text": "move the arm from one side to another in twisting conditon"
+      }
+    ]
+  }
+]
