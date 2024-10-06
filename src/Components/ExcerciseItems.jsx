@@ -4,10 +4,14 @@ import { FlashList } from "@shopify/flash-list";
 
 const excerciseImage = require("../../assets/images/excercise12.jpg");
 import workOutData from "../../excercise_data.json";
+import { useNavigation } from "@react-navigation/native";
 
 const ExcerciseItems = () => {
+  const navigation = useNavigation();
   const renderWorkOutItem = ({ item }) => (
-    <TouchableOpacity>
+    <TouchableOpacity
+      onPress={() => navigation.navigate("ExcerciseScreen", { item })}
+    >
       <ImageBackground
         source={excerciseImage}
         className="h-36 w-40 rounded-2xl overflow-hidden mx-2 bg-red-900"
