@@ -2,7 +2,6 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
 import WorkoutScreen from "./src/Screens/WorkoutScreen";
 import TimerScreen from "./src/Screens/TimerScreen";
 import CalculationScreen from "./src/Screens/CalculationScreen";
@@ -60,6 +59,7 @@ export default function App() {
         <Stack.Screen name="ExcerciseScreen" component={ExcerciseScreen} />
         <Stack.Screen name="CategoryScreen" component={CategoryScreen} />
       </Stack.Navigator>
+      <StatusBar style="auto" />
     </NavigationContainer>
   );
 }
