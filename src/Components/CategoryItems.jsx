@@ -7,6 +7,7 @@ import {
 } from "react-native";
 import React from "react";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
+import { useNavigation } from "@react-navigation/native";
 
 const beginner = require("../../assets/images/excercise1.avif");
 const balance = require("../../assets/images/excercise2.avif");
@@ -27,8 +28,11 @@ const WorkoutData = [
 ];
 
 const CategoryItems = () => {
+  const navigation = useNavigation();
   const renderItem = ({ item }) => (
-    <TouchableOpacity>
+    <TouchableOpacity
+      onPress={() => navigation.navigate("CategoryScreen", { item })}
+    >
       <ImageBackground
         source={item.imageSoure}
         className="h-36 w-40 rounded-2xl overflow-hidden mx-2 bg-red-900"
